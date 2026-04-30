@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "What is network security?",
+    "answer": "Network security is the practice of protecting computer networks from unauthorized access, attacks, or damage."
+  },
+  {
+    "id": 2,
+    "question": "What does a firewall do?",
+    "answer": "A firewall monitors and controls incoming and outgoing network traffic based on security rules."
+  },
+  {
+    "id": 3,
+    "question": "What is an IP address?",
+    "answer": "An IP address is a unique identifier assigned to each device connected to a network."
+  },
+  {
+    "id": 4,
+    "question": "What is a VPN?",
+    "answer": "A VPN creates a secure, encrypted connection over the internet to protect data and privacy."
+  },
+  {
+    "id": 5,
+    "question": "What is phishing?",
+    "answer": "Phishing is a cyber attack where attackers trick users into revealing sensitive information like passwords."
+  },
+  {
+    "id": 6,
+    "question": "What is malware?",
+    "answer": "Malware is malicious software designed to harm, disrupt, or gain unauthorized access to systems."
+  },
+  {
+    "id": 7,
+    "question": "What is encryption?",
+    "answer": "Encryption is the process of converting data into a secure format to prevent unauthorized access."
+  },
+  {
+    "id": 8,
+    "question": "What is a router?",
+    "answer": "A router connects multiple networks and directs data packets between them."
+  },
+  {
+    "id": 9,
+    "question": "What is DDoS attack?",
+    "answer": "A DDoS attack floods a network or server with traffic to make it unavailable."
+  },
+  {
+    "id": 10,
+    "question": "What is authentication?",
+    "answer": "Authentication is the process of verifying the identity of a user or system."
+  }
+]

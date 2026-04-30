@@ -1,5 +1,42 @@
 @import "tailwindcss";
 
+body {
+  background-color: #72baa9;
+}
+
 .disabled {
-  color: gray;
+  color: rgba(114, 186, 169, 0.5);
+}
+
+.card {
+  @apply w-full h-100 overflow-y-auto flex items-center justify-center px-4 py-3 absolute backface-hidden shadow-xl/10 rounded-4xl  font-mono font-bold text-2xl text-[#5C766D] text-center;
+}
+
+.front::after {
+  content: "";
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  border: #5c766d solid 5px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 24px;
+}
+
+.front {
+  background-image: url("./assets/card_bg.avif");
+  background-position: center;
+  background-size: cover;
+}
+
+.back {
+  background: url("./assets/texture.png") #5c766d;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  @apply flex-1 px-4 py-2 bg-[#5C766D] text-white rounded-lg shadow-md hover:bg-[#4a5c52] transition-colors duration-300 text-center uppercase font-bold;
 }
